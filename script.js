@@ -68,7 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             video.src = videoSrc;
             video.style.animation = 'fadeIn 1s ease-in-out forwards';
+            video.play();
         }, 3000);
+        
 
         setTimeout(() => {
             video.style.animation = 'fadeOut 1s ease-in-out forwards';
