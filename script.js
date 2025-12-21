@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // });
 
     function imageThenVideo() {
+        video.style.animation = 'fadeOut 1s ease-in-out forwards';
         setTimeout(() => {
             image.style.animation = 'fadeOut 1s ease-in-out forwards';
         }, 2000);
