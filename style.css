@@ -290,3 +290,19 @@ header .choose:hover {
         display: none;
     }
 }
+
+.audio-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.audio-container audio {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin-bottom: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}
