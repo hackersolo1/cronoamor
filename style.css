@@ -195,6 +195,10 @@ header .choose:hover {
             width: 218px;
         }
     }
+
+    .audio-container audio {
+        width: 50vw;
+    }
 }
 
 @keyframes show {
